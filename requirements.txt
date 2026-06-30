@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+folium
+streamlit-folium
+plotly
+streamlit
+requests
+python-dotenv
+google-auth
+earthengine-api
+shapely
+scipy
+matplotlib

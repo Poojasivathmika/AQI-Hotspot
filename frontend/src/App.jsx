@@ -39,7 +39,7 @@ export default function App() {
   const [showFires, setShowFires] = useState(true);
   const [showCentroids, setShowCentroids] = useState(true);
 
-  const API_BASE = 'http://localhost:8000/api';
+  const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:8000') + '/api';
 
   // 1. Fetch available dates and trends on load
   useEffect(() => {
